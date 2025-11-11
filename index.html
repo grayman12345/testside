@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design by Diana</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Design by Diana</h1>
+    <p>Elegant couture with elegance and soul</p>
+  </header>
+
+  <section class="about">
+    <h2>About the Designer</h2>
+    <p> A very sweet, creative woman. she loves a slow morning with beautiful music and Coffe!
+      I think about her more then she knows, she is so very beautiful both on the outside but also a beautiful soul.
+    </p>
+  </section>
+
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <div class="images">
+      <a href="dress1.jpg" class="lightbox"><img src="dress1.jpg" alt="Dress 1" /></a>
+      <a href="dress2.jpg" class="lightbox"><img src="dress2.jpg" alt="Dress 2" /></a>
+      <a href="dress3.jpg" class="lightbox"><img src="dress3.jpg" alt="Dress 3" /></a>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>You are welcome to contact me so we can make somthing beautiful for you</p>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Your email" required />
+      <textarea name="message" placeholder="Your message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="confirmation" style="display:none;">Thank you for your message! I’ll get back to you soon.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Design by Diana</p>
+  </footer>
+
+  <div id="lightboxOverlay">
+    <img id="lightboxImage" src="" alt="Expanded view" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
